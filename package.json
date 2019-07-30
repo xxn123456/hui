@@ -1,0 +1,44 @@
+{
+  "name": "hshui",
+  "version": "0.0.5",
+  "description": "基于vue-cli3的UI库",
+  "main": "lib/hsh-ui.umd.min.js",
+  "keywords": "hsh-ui",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name hsh-ui --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "highlight.js": "^9.15.8",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "markdown-it": "^9.0.1",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^3.1.1",
+    "less-loader": "^5.0.0",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.7.1",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:lgq627628/xr-ui.git"
+  }
+}
